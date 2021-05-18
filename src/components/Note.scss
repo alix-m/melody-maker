@@ -1,0 +1,15 @@
+.staff-notes {
+    display: inline-block;
+    max-height: fit-content;
+}
+
+.note {
+    width: 110px;
+    z-index: 100;
+    padding: 6px;
+}
+
+.note:hover {
+    transform: scale(1.08);
+    -webkit-transform:scale(1.08);
+}

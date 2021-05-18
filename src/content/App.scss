@@ -1,0 +1,34 @@
+.background {
+    z-index: -99;
+    position: absolute;
+    grid-column: 1 / 4;
+}
+
+$ts: .1s; // speed
+$te: ease; // ease
+
+.ease {
+    -webkit-transition: all $ts $te;
+    -moz-transition: all $ts $te;
+    -ms-transition: all $ts $te;
+    -o-transition: all $ts $te;
+    transition: all $ts $te;
+}
+
+.bg {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url('../assets/images/pagebg.png') no-repeat center center fixed;
+    background-size: cover;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}

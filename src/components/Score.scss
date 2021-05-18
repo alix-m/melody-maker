@@ -1,0 +1,44 @@
+.notes {
+    width: 100%;
+    z-index: 100;
+    background-image: url('../assets/images/staff.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 200%;
+    width: max-content;
+    display: flex;
+    align-items: center;
+}
+
+.notes-container {
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 28% 12% 16% 12% 32%;
+    width: 1224px;
+    background-image: url('../assets/images/frogbg.png');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.notes-container {
+    position: absolute;
+}
+
+.notes:last-child{
+    grid-row: 4;
+    grid-column: span 2/4;
+}
+
+.notes:first-child{
+    grid-row:2; 
+    grid-column: span 2/4;
+}
+
+
+button {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

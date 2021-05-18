@@ -1,0 +1,16 @@
+.button {
+    display: inline-block;
+    z-index: 999;
+    position: absolute;
+    margin: 64px;
+    transform: scale(0.5)
+}
+
+.button:hover{
+    transform: scale(0.58);
+    -webkit-transform:scale(0.58);
+}
+
+.notes-container {
+    margin-top: 200px;
+}
