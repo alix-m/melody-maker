@@ -6330,6 +6330,11 @@ toidentifier@1.0.0:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
+tone-rhythm@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/tone-rhythm/-/tone-rhythm-2.0.0.tgz#8d1137150fb155d99f1fae59ec62846cb34c65d8"
+  integrity sha512-6Z6hjCf+yxu450IvA+R7YlXI5oxb2183k6ZfpwjRl56J/b2dkDrGG1/62j3Sbj9Zuf/j9TWztPfxb73yKGj3Kg==
+
 tone@^14.8.25:
   version "14.8.25"
   resolved "https://registry.yarnpkg.com/tone/-/tone-14.8.25.tgz#0f580f3981bd62efcd60cca0dd86fd9ad53f72c8"

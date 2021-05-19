@@ -3,7 +3,7 @@ import Score from '../components/Score'
 import Note from '../components/Note'
 
 import { createNotes, createNewTune } from "../utils/notes"
-import { getSampler, playNote, playTune } from '../utils/musicplayer'
+import { getSampler, playTune } from '../utils/musicplayer'
 
 import playButton from '../assets/images/playbutton.png'
 
@@ -16,14 +16,13 @@ const MelodyMaker = () => {
         createNotes()
         noteElements = []
         for (let i = 0; i < 16; i++) {
-            noteElements.push(<Note key={i} id={i} value='rest' sampler={ getSampler() } onNoteChange={ handleNoteChange } />)
+            noteElements.push(<Note key={i} id={i} value='rest' sampler={ getSampler() } onNoteChange={ handleNoteChange }/>)
         }
     }
 
     const handleNoteChange = note => {
         if (note.noteName != undefined) {
             tune[note.key[0]] = note.noteName
-            playNote(note.noteName)
         }
     }
 

@@ -1,12 +1,12 @@
-.staff-notes {
+.note-container {
     display: inline-block;
-    max-height: fit-content;
 }
 
 .note {
     width: 110px;
     z-index: 100;
     padding: 6px;
+    display: block;
 }
 
 .note:hover {

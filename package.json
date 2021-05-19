@@ -7,14 +7,16 @@
   "license": "UNLICENSED",
   "scripts": {
     "dev": "webpack-dev-server --mode=development",
-    "build": "webpack --mode=production"
+    "build": "webpack --mode=production",
+    "start": "node index.js"
   },
   "dependencies": {
     "file-loader": "^6.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "source-map-loader": "^2.0.1",
-    "tone": "^14.8.25"
+    "tone": "^14.8.25",
+    "tone-rhythm": "^2.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",

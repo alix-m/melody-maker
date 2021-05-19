@@ -2,10 +2,9 @@ import React from 'react'
 import './App.scss'
 
 import MelodyMaker from './MelodyMaker'
-import { initNotes } from '../common/notes'
+import { initNotes } from '../utils/notes'
 
 function App() {
-  initNotes()
   return (
     <div className='App'>
       <header className='App-header'>
